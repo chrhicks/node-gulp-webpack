@@ -1,0 +1,14 @@
+/*// Tiny - 20rem (320px)*/
+@custom-media --viewport-tiny (min-width: 20rem);
+
+/*// Small - 30rem (480px)*/
+@custom-media --viewport-small (min-width: 30rem);
+
+/*// Medium - 45rem (720px)*/
+@custom-media --viewport-medium (min-width: 45rem);
+
+/*// Large - 60rem (960px)*/
+@custom-media --viewport-large (min-width: 60rem);
+
+/*// X-Large - 80rem (1280px)*/
+@custom-media --viewport-x-large (min-width: 80rem);
