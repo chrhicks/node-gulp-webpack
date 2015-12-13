@@ -10,5 +10,5 @@ gulp.task('build', ['css', 'webpack:build']);
 
 gulp.task('watch', function () {
   gulp.watch(['public/css/**/*.css'], ['css']);
-  gulp.watch(['public/es/**/*.es'], ['webpack:build']);
+  gulp.watch(['app/**/*.js'], ['webpack:build']);
 });
