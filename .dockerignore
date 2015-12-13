@@ -1,4 +1,4 @@
 .git
 node_modules
-public/dist
+#public/dist # add back with cdn deploy
 log

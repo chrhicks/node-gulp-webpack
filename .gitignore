@@ -35,3 +35,4 @@ node_modules
 
 # node-gulp-webpack
 public/dist
+dist
