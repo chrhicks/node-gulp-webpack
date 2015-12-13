@@ -1,6 +1,8 @@
 # node-gulp-webpack
 
-Sample project showing how gulp and webpack work together. Also utilizes PostCSS and babel. See the Technology section below for more info on what went into this app.
+An isomorphic React application utilizing PostCSS and Babel. Uses gulp and webpack in the build process.
+
+The isomorhpic React part was inspired by the [Universal React 24 Ways post by Jack Franklin](https://24ways.org/2015/universal-react/)
 
 ##Setup
 
@@ -16,6 +18,8 @@ This was built using node.js >= v5.0.0.
 Start the app using npm:
 
         npm run dev
+
+Visit in the browser: `http://localhost:7010`
 
 ## Deployment
 
