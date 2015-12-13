@@ -33,11 +33,13 @@ Thise currently builds and pushes to `chrhicks/node-gulp-webpack`. Update the Ma
 
 **Template Engine:** [Handlebars](http://handlebarsjs.com/)
 
+**UI Framework:** [React](http://facebook.github.io/react/)
+
 **Build Tools:**
 
 - [gulp](http://gulpjs.com/)
 - [webpack](https://webpack.github.io/)
-- [babel](https://babeljs.io/) (JavaScript ES6)
+- [babel](https://babeljs.io/) (JavaScript ES6 - Server & Client)
 - [PostCSS](https://github.com/postcss/postcss) (CSS / cssnext)
 
 **Production:** [Forever](https://github.com/foreverjs/forever) (High Availability)
