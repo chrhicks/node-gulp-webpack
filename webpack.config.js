@@ -2,23 +2,21 @@
 'use strict';
 
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
-    entry: {
-        index: './public/es/index.es'
-    },
+    entry: path.join(process.cwd(), 'app/client-render.js'),
     output: {
         path: __dirname + '/public/dist/js',
         publicPath: 'dist/js/',
-        filename: '[name].js',
-        chunkFilename: '[id].js'
+        filename: 'build.js'
     },
     module: {
         loaders: [
             {
-                test: /\.(es|jsx)$/,
+                test: /\.js$/,
                 exclude: /node_modules/,
-                loader: 'babel-loader'
+                loader: 'babel'
             }
         ]
     },
