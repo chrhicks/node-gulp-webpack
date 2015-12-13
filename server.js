@@ -21,6 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('*', (req, res) => {
+
   match({ routes, location: req.url }, (err, redirectLocation, props) => {
     if (err) {
       res.status(500).send(err.message);
